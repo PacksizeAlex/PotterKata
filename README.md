@@ -9,8 +9,47 @@ Note that if you buy, say, four books, of which 3 are different titles, you get 
 
 Potter mania is sweeping the country and parents of teenagers everywhere are queueing up with shopping baskets overflowing with Potter books. Your mission is to write a piece of code to calculate the price of any conceivable shopping basket, giving as big a discount as possible.
 
-For example, how much does this basket of books cost?
 
+## Examples
+* 1 copy of the first book
+
+Answer: $8
+
+* 2 copies of the first book
+
+Answer: $16
+
+* 1 copy of the first book
+* 1 copy of the second book
+
+Answer: $15.2
+
+* 1 copy of the first book
+* 1 copy of the second book
+* 1 copy of the third book
+
+Answer: $21.6
+
+* 1 copy of the first book
+* 1 copy of the second book
+* 1 copy of the third book
+* 1 copy of the fourth book
+
+Answer: $25.6
+
+* 1 copy of each book
+
+Answer: $30
+
+* 2 copies of the first book
+* 2 copies of the second book
+* 1 copy of the third book
+* 1 copy of the fourth book
+* 1 copy of the fifth book
+
+Answer: $45.2
+
+Optimization example:
 * 2 copies of the first book
 * 2 copies of the second book
 * 2 copies of the third book
