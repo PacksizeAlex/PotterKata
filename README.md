@@ -13,42 +13,50 @@ Potter mania is sweeping the country and parents of teenagers everywhere are que
 ## Examples
 * 1 copy of the first book
 
-Answer: $8
+Answer: $8 (8 * 1)
 
+---
 * 2 copies of the first book
 
-Answer: $16
+Answer: $16 (8 * 2)
 
+---
 * 1 copy of the first book
 * 1 copy of the second book
 
-Answer: $15.2
+Answer: $15.2 (8 * 2 * 0.95)
 
+---
 * 1 copy of the first book
 * 1 copy of the second book
 * 1 copy of the third book
 
-Answer: $21.6
+Answer: $21.6 (8 * 3 * 0.9)
 
+---
 * 1 copy of the first book
 * 1 copy of the second book
 * 1 copy of the third book
 * 1 copy of the fourth book
 
-Answer: $25.6
+Answer: $25.6 (8 * 4 * 0.8)
 
+---
 * 1 copy of each book
 
-Answer: $30
+Answer: $30 (8 * 5 * 0.75)
 
+---
+Depends on how groups are found:
 * 2 copies of the first book
 * 2 copies of the second book
 * 1 copy of the third book
 * 1 copy of the fourth book
 * 1 copy of the fifth book
 
-Answer: $45.2
+Answer: $45.2 (8 * 5 * 0.75 + 8 * 2 * 0.95)
 
+---
 Optimization example:
 * 2 copies of the first book
 * 2 copies of the second book
@@ -56,4 +64,5 @@ Optimization example:
 * 1 copy of the fourth book
 * 1 copy of the fifth book
 
-Answer: $51.20
+Answer: $51.20 (8 * 4 * 0.8 + 8 * 4 * 0.8)
+Better than $51.6 (8 * 5 * 0.75 + 8 * 3 * 0.9)
