@@ -64,5 +64,5 @@ Optimization example:
 * 1 copy of the fourth book
 * 1 copy of the fifth book
 
-Answer: $51.20 (8 * 4 * 0.8 + 8 * 4 * 0.8)
+Answer: $51.20 (8 * 4 * 0.8 + 8 * 4 * 0.8)  
 Better than $51.6 (8 * 5 * 0.75 + 8 * 3 * 0.9)
